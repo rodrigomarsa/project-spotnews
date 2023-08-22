@@ -6,6 +6,11 @@
 {% endblock %}
 
 {% block content %}
+    <header class="header">
+        <ul class="header-links">
+            <li><a href="{% url 'home-page' %}">Home</a></li>
+        </ul>
+    </header>
     <main class="news-container">
         {% for news in all_news %}
             <a class="news-card" href="{% url 'news-details-page' news.id %}">

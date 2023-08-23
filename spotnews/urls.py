@@ -28,8 +28,8 @@ router.register(r"categories", CategoryViewSet)
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("news.urls")),
-    path("api/", include("rest_framework.urls")),
-    path("", include(router.urls)),
+    path("api-auth/", include("rest_framework.urls")),
+    path("api/", include(router.urls)),
 ]
 
 if settings.DEBUG:

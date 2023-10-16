@@ -5,7 +5,7 @@
 
   Um projeto que tem como principal objetivo exibir notícias sobre tecnologia, com criação de models, utilizando Django ORM, criação de views, utilizando templates, criação de formulários, com relacionamento de modelos e criação de API REST, utilizando Django Rest Framework.
 
-  <strong>🚵 Habilidades a serem trabalhadas:</strong>
+  <strong>🚵 Habilidades trabalhadas:</strong>
   <ul>
     <li>Escrever aplicações usando Django e Django Rest Framework</li>
     <li>Desenvolver uma aplicação que usa a arquitetura Model-View-Template</li>
@@ -88,7 +88,7 @@
 
   <strong>MySQL</strong>
 
-  Para a realização deste projeto, utilizaremos um banco de dados chamado `spotnews_database`.
+  Para a realização deste projeto, foi utilizado um banco de dados chamado `spotnews_database`.
   Já existem algumas funções prontas no arquivo `news/scripts/seeds.py` que te auxiliarão no desenvolvimento.
   Não altere as funções deste arquivo, mudanças nele não serão executadas no avaliador automático.
 
